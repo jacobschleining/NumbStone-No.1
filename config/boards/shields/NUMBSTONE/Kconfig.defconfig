@@ -1,6 +1,2 @@
-IF SHIELD_NUMBSTONE
-
 config ZMK_KEYBOARD_NAME
-    default "NUMBSTONE"
-
-endif
+    default "NUMBSTONE" if SHIELD_NUMBSTONE
