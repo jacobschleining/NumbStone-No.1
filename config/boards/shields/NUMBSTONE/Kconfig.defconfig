@@ -1,0 +1,6 @@
+IF SHIELD_NUMBSTONE
+
+config ZMK_KEYBOARD_NAME
+    default "NUMBSTONE"
+
+endif
