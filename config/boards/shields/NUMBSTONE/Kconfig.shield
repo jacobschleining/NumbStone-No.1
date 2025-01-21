@@ -1,2 +1,7 @@
-config NUMBSTONE
-    def_bool $(shields_list_contains,NUMBSTONE)
+if SHIELD_NUMBSTONE
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "NUMBSTONE"
+
+endif
