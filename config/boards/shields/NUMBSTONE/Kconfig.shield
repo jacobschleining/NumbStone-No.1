@@ -1,2 +1,2 @@
 config NUMBSTONE
-    def_bool $(shields_list_contains, NUMBSTONE)
+    def_bool $(shields_list_contains,NUMBSTONE)
