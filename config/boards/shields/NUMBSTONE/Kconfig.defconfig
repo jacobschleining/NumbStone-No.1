@@ -1,1 +1,2 @@
 config SHIELD_NUMBSTONE
+    def_bool $(shields_list_contains,NUMBSTONE)
