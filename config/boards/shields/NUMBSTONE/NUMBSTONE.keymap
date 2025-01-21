@@ -18,7 +18,7 @@
 
         bt_layer {
             bindings = <
-                &trans           &bootloader             &bt BT_DISC       &bt BT_CLR
+                &trans           &bootloader             &none      &bt BT_CLR
                 &kp A            &none                   &none             
                 &trans           &none                   &none             &none
                 &bt BT_SEL 0     &bt BT_SEL 1            &bt BT_SEL 2      
